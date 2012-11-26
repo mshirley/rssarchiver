@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bson (1.7.1)
+    bson_ext (1.7.1)
+      bson (~> 1.7.1)
+    happymapper (0.4.0)
+      libxml-ruby (~> 2.0)
+    libxml-ruby (2.3.3)
+    mongo (1.7.1)
+      bson (~> 1.7.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bson_ext
+  happymapper
+  mongo
